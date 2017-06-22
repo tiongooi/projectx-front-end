@@ -3,7 +3,7 @@ import {View, Text, TouchableHighlight} from "react-native";
 import EmployeeThumbList from "../employee/EmployeeThumbList";
 import TaskList from "../task/TaskList";
 
-export default class JobSummary extends Component {
+export default class Summary extends Component {
   render(){
     return(
       <View>
