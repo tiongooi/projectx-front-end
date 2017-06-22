@@ -1,8 +1,13 @@
 import {TabNavigator} from "react-navigation";
+import MainStack from "./MainStack";
+
 import TestScreen1 from "../screens/TestScreen1";
 
 const RootNavigator = TabNavigator({
-  Tab1: {
+  App: {
+    screen: MainStack
+  },
+  Testing: {
     screen: TestScreen1
   }
 });

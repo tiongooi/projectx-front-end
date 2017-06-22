@@ -1,5 +1,10 @@
 import {combineReducers} from "redux";
+import clientsReducer from "./clients";
+import jobsReducer from "./jobs";
 
-export default const rootReducer = combineReducers({
-  //child reducer, key value pair
+const rootReducer = combineReducers({
+  clients : clientsReducer,
+  jobs : jobsReducer
 });
+
+module.exports = rootReducer;
