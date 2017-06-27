@@ -37,4 +37,5 @@ const tasks = {
   ]
 }
 
-module.exports = JSON.stringify(tasks);
+// module.exports = JSON.stringify(tasks);
+module.exports = tasks;
