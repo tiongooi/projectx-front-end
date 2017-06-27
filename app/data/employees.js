@@ -16,7 +16,7 @@ const employees = {
       lName: "Putin",
       email: "vp@kremlin.com",
       mobile: "2343467235",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 4
     },
     {
@@ -24,7 +24,7 @@ const employees = {
       lName: "Pothead",
       email: "hp@hogwarts.com",
       mobile: "8798768765",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 5
     },
     {
@@ -32,7 +32,7 @@ const employees = {
       lName: "Vici",
       email: "vv@doof.com",
       mobile: "298764325",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 6
     },
     {
@@ -40,10 +40,11 @@ const employees = {
       lName: "Dick",
       email: "md@ma.com",
       mobile: "20976756876",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 7
     }
   ]
 }
 
-module.exports = JSON.stringify(employees);
+// module.exports = JSON.stringify(employees);
+module.exports = employees;

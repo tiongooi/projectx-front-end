@@ -9,7 +9,7 @@ const employers = {
       email: "js@js.com",
       entity: "JS Plumbing",
       mobile: "0789765788",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 1
     },
     {
@@ -18,10 +18,11 @@ const employers = {
       email: "plotus@plotus.com",
       entity: "White House Cleaning Service",
       mobile: "897762343",
-      avatar: "Not Available"
+      avatar: "Not Available",
       _id: 2
     },
   ]
 }
 
-module.exports = JSON.stringify(employers);
+// module.exports = JSON.stringify(employers);
+module.exports = employers;

@@ -6,9 +6,9 @@ import store from "./storeConfig";
 export default class Root extends Component {
   render(){
     return(
-      <Provider store={store}>
-        <RootNavigator />
-      </Provider>
+        <Provider store={store}>
+          <RootNavigator />
+        </Provider>
     )
   }
 };

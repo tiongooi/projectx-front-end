@@ -48,4 +48,5 @@ const clients = {
   ]
 }
 
-module.exports = JSON.stringify(clients);
+// module.exports = JSON.stringify(clients);
+module.exports = clients;

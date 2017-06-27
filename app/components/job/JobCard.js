@@ -4,12 +4,12 @@ import {View, Text, TouchableHighlight} from "react-native";
 export default class JobCard extends Component {
   render(){
     return(
-      <TouchableHighlight>
+      <TouchableHighlight onPress={this.props.click}>
         <View>
           <View><Text>IMG</Text></View>
           <View>
-            <Text>John's Mosman Home</Text>
-            <Text>Month End Maintenence</Text>
+            <Text>{this.props.job.jobTitle}</Text>
+            <Text>{this.props.job.jobDescription}</Text>
         </View>
         </View>
       </TouchableHighlight>

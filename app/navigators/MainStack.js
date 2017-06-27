@@ -1,17 +1,17 @@
 import {StackNavigator} from "react-navigation";
-import JobSummary from "../screens/JobSummary";
+import JobOverview from "../screens/JobOverview";
 import DayOverview from "../screens/DayOverview";
 import MonthOverview from "../screens/MonthOverview";
 
 const MainStack = StackNavigator({
   Screen1: {
-    screen: DayOverview
+    screen: JobOverview
   },
   Screen2: {
     screen: MonthOverview
   },
   Screen3: {
-    screen: JobSummary
+    screen: DayOverview
   }
 });
 
